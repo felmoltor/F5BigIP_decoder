@@ -1,4 +1,4 @@
-F5BigIP_decoder
+F5BigIP Decoder
 ===============
 
 F5 Cookie decoder for single code, file with multiple codes and generic text file (e.g. burp dumps)
@@ -11,16 +11,12 @@ Usage: ./F5BigIPdecoder.rb [options]
     -g, --genericfile GENERICFILE    A file with a lot of text where to find F5 codes to decode
     -h, --help                       Display this screen
 
------------------
-
 Execution example:
+------------------
 
 ```
 felmoltor@kali:~/Tools/F5BigIP_decoder$ ./F5BigIPdecoder.rb -c 1946627082.27970.0000
 1946627082.27970.0000 ==> 10.44.7.116:17005
-
-felmoltor@kali:~/Tools/F5BigIP_decoder$ cat test.
-test.codefile.txt     test.genericfile.txt  
 
 felmoltor@kali:~/Tools/F5BigIP_decoder$ cat test.codefile.txt 
 1846527082.27970.0000
